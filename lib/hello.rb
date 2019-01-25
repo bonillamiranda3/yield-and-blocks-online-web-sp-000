@@ -1,3 +1,8 @@
+def hello_t(names)
+  names.each do |name| puts name
+  end
+end
+
 def hello_t(array)
   if block_given?
     i = 0
@@ -14,7 +19,4 @@ def hello_t(array)
 end
 
 # call your method here!
-def hello_t(names)
-  names.each do |name| puts name
-  end
-end
+
